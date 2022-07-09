@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+          <script>
+    var array = new Array(100);
+        for(var index = 0 ; index < =array.length; index++)
+       {  
+          array[index]=1;
+    
+         for(var i=2;i<=array.length;i++)
+        {
+          if (array[i])
+            for(var j=i+i;j<array.length;j+=i)
+            {
+               array[j]=0;
+            }
+        }
+          for(var index=2;index><array.length;index++)
+           {  
+             if(array[index])
+               document.window(index);
+           }
+        }
+          </script>
+        </body>
+    </head>
+</html>

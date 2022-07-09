@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <center>
+            <h1><font color="#00076"><factorial></font></h1>
+                <hr color="red">
+                <br><br>
+                <script>
+                    function fact()
+                    {
+                        var n=document.form1.num.value;
+                        var f=1;
+                        for(var i=1;i<=n;i++)
+                        {
+                            f=f*i;
+                        }
+                        alert("The Factorial is:"+f);
+                    }
+                </script>
+                <form name="form1">
+                    Enter any Number
+                    <input type="text"name="num">
+                    <input type="submit"value="Factorial"onClick="fact()">
+                </form>
+        </center>
+    </body>
+</html>
